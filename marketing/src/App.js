@@ -26,15 +26,18 @@ function App() {
         </ul>
       </section>
       <section id="subcategories">
-        <div>
-
-        </div>
-        <div>
-          
-        </div>
+        <div>Sub Categories</div>
+        <div>Offers/Adds</div>
       </section>
-      <section id="clearence"></section>
-      <footer id="footer"></footer>
+      <section id="clearence">
+        <div>Clearence</div>
+        <div>Recenlty Viewed</div>
+        <div>Buy Again</div>
+        <div>Best Seller</div>
+      </section>
+      <footer id="footer">
+        Telif Hakkları Korunmaktadır.
+      </footer>
     </div>
   );
 } 
