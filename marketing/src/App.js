@@ -25,7 +25,14 @@ function App() {
           <li><a href="">Language/Currency</a></li>
         </ul>
       </section>
-      <section id="subcategories"></section>
+      <section id="subcategories">
+        <div>
+
+        </div>
+        <div>
+          
+        </div>
+      </section>
       <section id="clearence"></section>
       <footer id="footer"></footer>
     </div>
