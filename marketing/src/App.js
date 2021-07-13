@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup, ButtonToolbar, Dropdown, DropdownButton, Carousel, Breadcrumb} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup, ButtonToolbar, Dropdown, DropdownButton, Carousel, Breadcrumb, Pagination} from 'react-bootstrap';
 
 function App() {
   return (
@@ -179,7 +179,7 @@ function App() {
       </section>
       <section id="clearence">
         <div>Clearence</div>
-        <div>Recenlty Viewed</div>
+          
         <div>Buy Again</div>
         <div>Best Seller</div>
       </section>
