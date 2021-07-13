@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup, ButtonToolbar, Dropdown, DropdownButton, Carousel} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup, ButtonToolbar, Dropdown, DropdownButton, Carousel, Breadcrumb} from 'react-bootstrap';
 
 function App() {
   return (
@@ -184,6 +184,13 @@ function App() {
         <div>Best Seller</div>
       </section>
       <footer id="footer">
+      <Breadcrumb>
+  <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+  <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+    Library
+  </Breadcrumb.Item>
+  <Breadcrumb.Item active>Data</Breadcrumb.Item>
+</Breadcrumb>
         Telif Hakkları Korunmaktadır.
       </footer>
     </div>
