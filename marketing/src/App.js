@@ -25,7 +25,7 @@ function App() {
       />
       <Button variant="outline-success">Search</Button>
     </Form>
-      <Nav.Link href="#action1"><FaSignInAlt /> Sign In</Nav.Link>
+      <Nav.Link href="Sing In.js"><FaSignInAlt /> Sign In</Nav.Link>
       <NavDropdown title="Notification" id="navbarScrollingDropdown">
       </NavDropdown>
       <Nav.Link href="#action2"><FaShoppingCart /></Nav.Link>
