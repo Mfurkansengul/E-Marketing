@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import { FaBeer, FaSignInAlt, FaShoppingCart} from 'react-icons/fa';
 
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup, ButtonToolbar, Dropdown, DropdownButton, Carousel, Breadcrumb, Pagination} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup, ButtonToolbar, Dropdown, DropdownButton, Carousel, Breadcrumb, CardGroup, Card, CardImg,} from 'react-bootstrap';
 
 function App() {
   return (
@@ -25,10 +25,10 @@ function App() {
       />
       <Button variant="outline-success">Search</Button>
     </Form>
-      <Nav.Link href="#action1">Sign In</Nav.Link>
+      <Nav.Link href="#action1"><FaSignInAlt /> Sign In</Nav.Link>
       <NavDropdown title="Notification" id="navbarScrollingDropdown">
       </NavDropdown>
-      <Nav.Link href="#action2">Cart</Nav.Link>
+      <Nav.Link href="#action2"><FaShoppingCart /></Nav.Link>
     </Nav>
 
   </Navbar.Collapse>
@@ -145,7 +145,7 @@ function App() {
   <Carousel.Item interval={1000}>
     <img
       className="d-block w-100"
-      src="images\IMG_0117.JPG"
+      src="./images/IMG.0117.JPG"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -178,10 +178,437 @@ function App() {
 </Carousel>
       </section>
       <section id="clearence">
-        <div>Clearence</div>
-          
-        <div>Buy Again</div>
-        <div>Best Seller</div>
+        <div>Clearence
+          <CardGroup>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+                        <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+          </CardGroup>
+        </div>
+        <div>Buy Agaın
+          <CardGroup>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+                        <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+          </CardGroup>
+          </div>
+        <div>Best Seller 
+          <CardGroup>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+                        <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160"/>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This is a wider card with suppoerting text below as a natural lead-in to additional content. This content is alittle bit longer
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Lasted updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>This card has suppoerting text below as natural lead-in to additional
+                  content {' '}
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px60" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a naturak kead-in to addinational content. This card has even longer content than the firsr to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </Card.Footer>
+            </Card>
+          </CardGroup></div>
       </section>
       <footer id="footer">
       <Breadcrumb>
@@ -189,9 +616,8 @@ function App() {
   <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
     Library
   </Breadcrumb.Item>
-  <Breadcrumb.Item active>Data</Breadcrumb.Item>
+  <Breadcrumb.Item active>Telif Hakkları Korunmaktadır.</Breadcrumb.Item>
 </Breadcrumb>
-        Telif Hakkları Korunmaktadır.
       </footer>
     </div>
   );
