@@ -38,13 +38,14 @@ function SignIn() {
                     <Form.Control />
                   </Form.Group>
 
-                  <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>State</Form.Label>
-                    <Form.Select defaultValue="Choose...">
-                      <option>Choose...</option>
-                      <option>...</option>
-                    </Form.Select>
-                  </Form.Group>
+                  <Form.Group controlId="formGridState">
+                <Form.Label>State</Form.Label>
+                <Form.Control as="select" custom>
+                  <option>AL</option>
+                  <option>OR</option>
+                  <option>WA</option>
+                </Form.Control>
+              </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridZip">
                     <Form.Label>Zip</Form.Label>
@@ -78,10 +79,11 @@ function SignIn() {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                   <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" className="mr-2">
                   Submit
                 </Button>
-                <Button as="input" type="reset" value="Reset">
+                
+                <Button type="reset" value="Reset">
                   Reset
                 </Button>
               </Form>
