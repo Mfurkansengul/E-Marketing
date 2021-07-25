@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button, ButtonGroup, Butto
 function Categories() {
     return (
         <div className="Categories">
-            <section id="categories">
+            <section id="categories" className="mt-3">
                 <ButtonToolbar aria-label="Toolbar with button groups">
                     <ButtonGroup className="mr-2">
                         <NavDropdown title="All Categories" id="navbarScrollingDropdown">Tüm Kategoriler</NavDropdown>
