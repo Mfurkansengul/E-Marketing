@@ -95,11 +95,11 @@ function SubCategories() {
                         </div>
                     </Col>
                     <Col md={11}>
-                        <Carousel className="ml-5">
+                        <Carousel className="ml-5 col-md-11">
                             <Carousel.Item interval={1000}>
                                 <img style={{'height':"300px"}}
                                 className="d-block w-100"
-                                src="https://www.bilgiustam.com/resimler/2015/05/690x380-Hawaii-Sunset.jpg"
+                                src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
                                 alt="First slide"
                                 />
                                 <Carousel.Caption>
@@ -108,9 +108,9 @@ function SubCategories() {
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item interval={500}>
-                                <img
+                                <img style={{'height':"300px"}}
                                 className="d-block w-100"
-                                src="holder.js/800x400?text=Second slide&bg=282c34"
+                                src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
                                 alt="Second slide"
                                 />
                                 <Carousel.Caption>
@@ -119,9 +119,9 @@ function SubCategories() {
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
+                                <img style={{'height':"300px"}}
                                 className="d-block w-100"
-                                src="holder.js/800x400?text=Third slide&bg=20232a"
+                                src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
                                 alt="Third slide"
                                 />
                                 <Carousel.Caption>
