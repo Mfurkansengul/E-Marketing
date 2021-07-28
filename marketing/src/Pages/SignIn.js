@@ -24,7 +24,7 @@ function SignIn() {
                   <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                  <Form.Check type="checkbox" label="Check me out" />
+                  <Form.Check type="checkbox" label="Remember Me" />
                 </Form.Group>
                 <Button variant="primary" type="submit" className="mr-2">
                   Submit
@@ -74,7 +74,7 @@ function SignIn() {
                   </Form.Group>
                 </Row>
                 <Form.Group className="mb-3" id="formGridCheckbox">
-                  <Form.Check type="checkbox" label="Check me out" />
+                  <Form.Check type="checkbox" label="Remember Me" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                   Submit
