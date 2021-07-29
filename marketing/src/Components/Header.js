@@ -26,7 +26,7 @@ function Header() {
                 style={{ maxHeight: '100px' }}
                 navbarScroll>
                     <Nav.Link href="/signIn" className="col-md-4"><FaSignInAlt />Sign In</Nav.Link>
-                    <NavDropdown title={<IoMdNotificationsOutline />} id="navbarScrollingDropdown" className="col-md-5"></NavDropdown>
+                    <NavDropdown title={<IoMdNotificationsOutline />} id="navbarScrollingDropdown" className="col-md-5" title="notification"></NavDropdown>
                     <Nav.Link href="#action2" className="col-md-3"><FaShoppingCart />Cart</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
