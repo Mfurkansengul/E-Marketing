@@ -1,395 +1,384 @@
-import { Carousel, CardGroup, Card } from "react-bootstrap";
+import {
+  Carousel,
+  CardGroup,
+  Card,
+  Container,
+  Row,
+  Col,
+} from "react-bootstrap";
 
 function Clearence() {
   return (
     <div className="Clearence">
       <section id="clearence">
-        <div>
-          <CardGroup>
-            <Card>
-              <Card.Img
-                variant="top"
-                src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-          </CardGroup>
-        </div>
-        <div>
-          Buy Agaın
-          <CardGroup>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-          </CardGroup>
-        </div>
-        <div>
-          Best Seller
-          <CardGroup>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with suppoerting text below as a natural
-                  lead-in to additional content. This content is alittle bit
-                  longer
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Lasted updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This card has suppoerting text below as natural lead-in to
-                  additional content{" "}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px60" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a naturak
-                  kead-in to addinational content. This card has even longer
-                  content than the firsr to show that equal height action.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-          </CardGroup>
-        </div>
+        <Container className="ml-1 mr-1">
+          <Row>
+            <Col md={3}>
+              <div id="clearence_section">
+                Clearence
+                <CardGroup>
+                  <Carousel>
+                    <Carousel.Item>
+                      <Card>
+                        <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card.Body>
+                          <Card.Title>Card Title</Card.Title>
+                        </Card.Body>
+                      </Card>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <Card>
+                        <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"/>
+                        <Card.Body>
+                          <Card.Title>Card Title</Card.Title>
+                        </Card.Body>
+                      </Card>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <Card>
+                        <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card.Body>
+                          <Card.Title>Card Title</Card.Title>
+                        </Card.Body>
+                      </Card>
+                    </Carousel.Item>
+                  </Carousel>
+                </CardGroup>
+              </div>
+            </Col>
+            <Col md={9}>
+              <Row>
+                <Col md={6}>
+                  <div id="recently_viewed">
+                    Recently Viewed
+                    <Carousel>
+                      <Carousel.Item>
+                        <CardGroup>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <CardGroup>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <CardGroup>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                    </Carousel>
+                  </div>
+                </Col>
+                <Col md={6}>
+                  <div id="buy_again">
+                    Buy Agaın
+                    <Carousel>
+                      <Carousel.Item>
+                        <CardGroup>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <CardGroup>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <CardGroup>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                    </Carousel>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <div id="best_seller">
+                  Best Seller
+                  <Carousel>
+                    <Carousel.Item>
+                      <CardGroup>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                      </CardGroup>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <CardGroup>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                      </CardGroup>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <CardGroup>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                        <Card>
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                          </Card.Body>
+                        </Card>
+                      </CardGroup>
+                    </Carousel.Item>
+                  </Carousel>
+                </div>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
       </section>
     </div>
   );
