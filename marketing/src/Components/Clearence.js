@@ -11,7 +11,7 @@ function Clearence() {
   return (
     <div className="Clearence">
       <section id="clearence">
-        <Container className="ml-1 mr-1">
+        <Container fluid>
           <Row>
             <Col md={3}>
               <div id="clearence_section">
