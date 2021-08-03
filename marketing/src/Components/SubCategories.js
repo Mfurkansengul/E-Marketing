@@ -6,7 +6,7 @@ function SubCategories() {
     <div className="SubCategories">
       <section id="subcategories" className="mt-2 ml-3">
         <Row>
-          <Col md={2} className="border border-2 border-primary p-3">
+          <Col md={2} className="border border-2 border-danger p-3">
             <AllCategories />
           </Col>
           <Col md={10}>

@@ -10,7 +10,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Elektronik`}
             className="w-100"
           >
@@ -39,7 +39,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Moda`}
             className="w-100"
           >
@@ -62,7 +62,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Ev, Yaşam, Kırtasiye`}
             className="w-100"
           >
@@ -90,7 +90,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Oto, Bahçe, Yapı Market`}
             className="w-100"
           >
@@ -112,7 +112,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Anne, Bebek, Oyuncak`}
             className="w-100"
           >
@@ -139,7 +139,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={` Spor, Outdoor `}
             className="w-100"
           >
@@ -174,7 +174,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Kozmetik, Kişisel Bakım`}
             className="w-100"
           >
@@ -209,7 +209,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Süper Market, Pet Shop`}
             className="w-100"
           >
@@ -237,7 +237,7 @@ function AllCategories() {
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
-            variant="secondary"
+            variant="outline-warning"
             title={`Kitap, Müzik, Film, Hobi`}
             className="w-100"
           >

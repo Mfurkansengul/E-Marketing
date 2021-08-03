@@ -29,9 +29,9 @@ function Header() {
               />
               <Button variant="outline-success">Search</Button>
             </Form>
-            <div className="col-md-2"></div>
+            <div className="col-md-2" ></div>
             <Nav
-              className="my-2 my-lg-0 col-xs-4 col-md-3"
+              className="my-2 my-lg-0 col-xs-4 col-md-3 "
               style={{ maxHeight: "100px" }}
               navbarScroll
             >

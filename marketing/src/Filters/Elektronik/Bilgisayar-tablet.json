@@ -1,0 +1,45 @@
+{
+    "Bilgisayar - Tablet": [
+        Masaüstü Bilgisayar, Dizüstü Bilgisayar Laptop, Monitör PC(All-in-One), Mini Masaüstü, Serverlar, Hazır Sistem, Dokunmatik Pos Pc, Tablet ],
+
+    "Veri Depolama" : [
+        Usb Bellek, Taşınabilir Disk, Taşınabilir SSD, Hafıza Kartları, Çoklu Depolama Ünitesi (NAS), SSD (Solid State Drive)],
+    
+    "Bilgisayar Bileşenleri" : [
+        Anakartlar, Ekran Kartları, Bellek (Ram), İşlemciler, Hard Diskler, Bilgisayar Kasası, Power Supply (Psu), Optik Sürücüler, Soğutucular / Overclock, Tv Kartları, Ses kartları, SSD (Solid State Drive), Dijital Video İşleme, Server Donanımları],
+
+    "Oyuncu özel" : [
+        Oyun Bilgisayarları, Oyun Donanımları],
+
+    "Çevre Birimleri" : [
+        Monitör, Mouse, Klavye, Güç Kaynakları Ups / Akü, Ses Ve Görüntü Ürünleri, Grafik Tabletler, Dvd/Hdd Kasalar, Elektronik Sözlükler, Usb / Firewire Ürünleri, Tarayıcılar, Simülasyon Aksesuarları ],
+
+    "Ağ / Modem" : [
+        Akıllı Ev Sistemleri, Modemler, Access Point, 3G/4G Router, Router, Menzil Arttırıcı, Network Adaptör, Powerline Ürünleri, OP Kameralar, Switch, Network Kartları, Print Server, Bluetooth Ürünleri, Ethernet Kartları, Antenler / Kablolar, Kabinler, Firewall],
+
+    "Aksesuarlar": [
+        Notebook Aksesuarları, Tablet ve iPad Aksesuarları,
+        Kablolar/Swicth ve Çoklayıcılar, Akım Koruyucuları, Mp3 Player Aksesuarları, Taşınabilir Disk Aksesuarları, Usb Aksesuarları, Mouse Pad, Temizlik Ürünleri, Monitör Aksesuarları,Apple Aksesuarları, CD/DVD ve Aksesuarları, Ekran Kartı Aksesuarları],
+
+    "Yazılım Ürünleri" : [
+        Dijital İndirilebilir Lisans, Antivirüs ve Güvenlik,Çeviri ve Sözlğk Yazılımları, Eğitim Yazılımları,İşletim Sistemi, Kültür ve Hobi Yazılımları, OfficeYazılımları, Tasarım Yazılımları, Ticari Yazılımlar],
+
+    "MP3 / Ses Kayıt Cihazları" : [
+        Mp3 Player, Ses Kayıt Cihazları],
+
+    "Bilgisayar Yedek Parça" : [
+        Dizüstü Bilgisayar Laptop, Tablet],
+        
+    "Marka" : [
+        Asus, Lenovo, Dell, HP, Huawei, MSI, Acer, Monster, Casper, Zelta, Turbox, İzoly, Razer, Exper, Apple, Toshiba],
+    
+    "Fiyat Aralığı" : [
+        0 - 25 TL, 25 - 50 TL, 50 - 100 TL ,100 - 250 TL, 250 - 500 TL, 500 - 750 TL, 750 - 1000 TL, 1000 - 1500 TL, 1500 - 2000 TL, 2000 - 2500 TL, 2500 TL üzerinde],
+
+    "Fırsat Ürünleri" : [ 
+        24 Saatte Kargoda, Girişimci Kadınlar, Yurt Dışından Ürünler
+    ]
+
+
+
+}

@@ -11,7 +11,7 @@ import {
 function Categories() {
   return (
     <div className="Categories">
-      <section id="categories" className="mt-3">
+      <section id="categories" className="border border-2 mt-3">
         <Container fluid="sm">
           <Row>
             <Col md="auto">
