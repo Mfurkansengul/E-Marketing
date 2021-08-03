@@ -1,12 +1,14 @@
-import { InputGroup, FormControl } from "react-bootstrap";
+import { InputGroup, FormControl, Row } from "react-bootstrap";
 
 function Filters() {
     
     return(
         <div className="Filters">
-            <InputGroup className="mr-1">
+            <InputGroup >
                 <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-                <FormControl aria-label="Text input with checkbox" />
+            </InputGroup>
+            <InputGroup >
+                <InputGroup.Checkbox aria-label="Checkbox for following text input" />
             </InputGroup>
         </div>
 

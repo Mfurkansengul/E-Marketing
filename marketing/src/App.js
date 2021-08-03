@@ -4,7 +4,6 @@ import { Switch, Route} from 'react-router';
 import Home from './Pages/Home'
 import SignIn from './Pages/SignIn'
 import Products from './Pages/Products';
-import Image from 'react-bootstrap/Image'
 
 function App() {
   return (

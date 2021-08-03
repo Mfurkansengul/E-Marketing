@@ -6,9 +6,7 @@ import {
   Row,
   Col,
   Container,
-  Dropdown,
 } from "react-bootstrap";
-import DropdownItem from "react-bootstrap/esm/DropdownItem";
 
 function Categories() {
   return (
