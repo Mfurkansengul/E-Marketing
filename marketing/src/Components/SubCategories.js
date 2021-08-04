@@ -6,14 +6,14 @@ function SubCategories() {
     <div className="SubCategories">
       <section id="subcategories" className="mt-2 ml-3">
         <Row>
-          <Col md={2} className="border border-2 border-danger p-3">
+          <Col md={2} className="border border-2 border-success p-3">
             <AllCategories />
           </Col>
           <Col md={10}>
             <Carousel className="ml-5 col-md-11">
               <Carousel.Item interval={1000}>
                 <img
-                  style={{ height: "300px" }}
+                  style={{ height: "455px" }}
                   className="d-block w-100"
                   src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
                   alt="First slide"
@@ -27,7 +27,7 @@ function SubCategories() {
               </Carousel.Item>
               <Carousel.Item interval={500}>
                 <img
-                  style={{ height: "300px" }}
+                  style={{ height: "455px" }}
                   className="d-block w-100"
                   src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
                   alt="Second slide"
@@ -41,7 +41,7 @@ function SubCategories() {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  style={{ height: "300px" }}
+                  style={{ height: "455px" }}
                   className="d-block w-100"
                   src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
                   alt="Third slide"

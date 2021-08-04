@@ -12,32 +12,32 @@ function Categories() {
   return (
     <div className="Categories">
       <section id="categories" className="border border-2 mt-3">
-        <Container fluid="sm">
+        <Container fluid className="d-flex justify-content-center">
           <Row>
             <Col md="auto">
               <ButtonToolbar aria-label="Toolbar with button groups" md="auto">
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-primary">
+                  <Button variant="outline-success">
                     Super Price/Super Offer
                   </Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-primary">Imported Products</Button>
+                  <Button variant="outline-success">Imported Products</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-primary">Delivery Today</Button>
+                  <Button variant="outline-success">Delivery Today</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-primary">Offers</Button>
+                  <Button variant="outline-success">Offers</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-primary">Top Sold</Button>
+                  <Button variant="outline-success">Top Sold</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-primary">Other Products</Button>
+                  <Button variant="outline-success">Other Products</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-primary">Gift Ideas</Button>
+                  <Button variant="outline-success">Gift Ideas</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
                   <NavDropdown

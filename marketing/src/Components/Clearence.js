@@ -11,9 +11,9 @@ function Clearence() {
   return (
     <div className="Clearence">
       <section id="clearence">
-        <Container fluid>
-          <Row>
-            <Col md={3}>
+        <Container fluid >
+          <Row >
+            <Col md={3} >
               <div id="clearence_section">
                 Clearence
                 <CardGroup>
