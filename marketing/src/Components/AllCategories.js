@@ -124,14 +124,13 @@ function AllCategories() {
             <Dropdown.Item eventKey="1" href="/products/baby" >Anne Bebek Ürünleri</Dropdown.Item>
             <Dropdown.Item eventKey="2" href="/products/toys">Oyuncuklar</Dropdown.Item>
             <Dropdown.Item eventKey="3" href="/products/lactation">Emzirme & Bebek Beslenme</Dropdown.Item>
-            <Dropdown.Item eventKey="4" href="/products/babyroom">bebek Odası & Güvenlik</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/babyroom">Bebek Odası & Güvenlik</Dropdown.Item>
             <Dropdown.Item eventKey="5" href="/products/diaper">
               Bebek Bezi & Islak Mendil
             </Dropdown.Item>
             <Dropdown.Item eventKey="6" href="/products/babycare">
               Bebek Bakım & Banyo & Sağlık
             </Dropdown.Item>
-            <Dropdown.Item eventKey="7" href="/products/babyclothing">Giyim</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -146,24 +145,24 @@ function AllCategories() {
             title={` Spor, Outdoor `}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Tüm Spor Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="2">Tüm Outdoor Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="3">Spor-Ayakkabı</Dropdown.Item>
-            <Dropdown.Item eventKey="4">Outdoor-Ayakkabı</Dropdown.Item>
-            <Dropdown.Item eventKey="5">Fitness-Kondisyon</Dropdown.Item>
-            <Dropdown.Item eventKey="6">
+            <Dropdown.Item eventKey="1" href="/products/allsports">Tüm Spor Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/babycare">Tüm Outdoor Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/babycare">Spor-Ayakkabı</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/babycare">Outdoor-Ayakkabı</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/babycare">Fitness-Kondisyon</Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/babycare">
               Elektrikli Scooter-Paten-Kaykay
             </Dropdown.Item>
-            <Dropdown.Item eventKey="7">Spor Branşları</Dropdown.Item>
-            <Dropdown.Item eventKey="8">Bisiklet</Dropdown.Item>
-            <Dropdown.Item eventKey="9">Taraftar Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="10">
+            <Dropdown.Item eventKey="7" href="/products/babycare">Spor Branşları</Dropdown.Item>
+            <Dropdown.Item eventKey="8" href="/products/babycare">Bisiklet</Dropdown.Item>
+            <Dropdown.Item eventKey="9" href="/products/babycare">Taraftar Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="10" href="/products/babycare">
               Kamp & Kampçılık Malzemeleri
             </Dropdown.Item>
-            <Dropdown.Item eventKey="11">Şişme Su Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="12">Balıkçılık Avcılık</Dropdown.Item>
-            <Dropdown.Item eventKey="13">Aksiyon Kamera</Dropdown.Item>
-            <Dropdown.Item eventKey="14">
+            <Dropdown.Item eventKey="11" href="/products/babycare">Şişme Su Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="12" href="/products/babycare">Balıkçılık Avcılık</Dropdown.Item>
+            <Dropdown.Item eventKey="13" href="/products/babycare">Aksiyon Kamera</Dropdown.Item>
+            <Dropdown.Item eventKey="14" href="/products/babycare">
               Outdoor Elektirik & Optik
             </Dropdown.Item>
           </DropdownButton>

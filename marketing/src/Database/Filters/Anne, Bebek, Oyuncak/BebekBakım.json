@@ -1,0 +1,50 @@
+{
+    "Kategori": [
+        "Bebek Kozmetik",
+        "Şampuan",
+        "Pişik Kremi",
+        "Krem & Losyon",
+        "Güneş Ürünleri",
+        "Bebek Banyo Gereçleri",
+        "Ateş Ölçer",
+        "Bebek Tuvalet",
+        "Bakım Çantaları",
+        "Buhar Makineleri"
+    ],
+    "Marka":[
+"Dalin",
+"Mustela",
+"Uni Baby",
+"Johnsons Baby",
+"Bübchen",
+"Sebamed",
+"Bepanthol",
+"Hipp",
+"Nivea",
+"Chicco",
+"Johnsons",
+"Sudocrem",
+"Incia",
+"Trukid",
+"Babe"
+    ],
+"Ürün Çeşidi":[
+"Bebek Şampuanı",
+"Krem & Losyon",
+"Pişik Kremi",
+"Bebek Sabunu",
+"Bebek Yağı",
+"Bebek Bakım Seti",
+"Güneş Bakım Ürünü ",
+"Pudra",
+"Banyo Köpüğü",
+"Çocuk Güneş Ürünleri",
+"Jel ve Sabunlar",
+"Nemlendirici Kremler",
+"Tonikler",
+"El Kremi",
+"Güneş Krem ve Losyonları",
+"Vücut Losyon ve Kremleri",
+"Makyaj Temizleme Ürünleri"
+]
+}

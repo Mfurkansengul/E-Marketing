@@ -112,17 +112,17 @@ export default function Routes() {
             <Route exact path="/products/lactation">
             <Products product="lactation" />
             </Route>
-            <Route exact path="/products/worksafety">
-            <Products product="worksafety" />
+            <Route exact path="/products/babyroom">
+            <Products product="babyroom" />
             </Route>
-            <Route exact path="/products/worksafety">
-            <Products product="worksafety" />
+            <Route exact path="/products/diaper">
+            <Products product="diaper" />
             </Route>
-            <Route exact path="/products/worksafety">
-            <Products product="worksafety" />
+            <Route exact path="/products/babycare">
+            <Products product="babycare" />
             </Route>
-            <Route exact path="/products/worksafety">
-            <Products product="worksafety" />
+            <Route exact path="/products/allsports">
+            <Products product="allsports" />
             </Route>
             <Route exact path="/products/worksafety">
             <Products product="worksafety" />

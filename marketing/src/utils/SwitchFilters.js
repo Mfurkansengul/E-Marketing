@@ -32,6 +32,10 @@ import worksafety from "../Database/Filters/Oto, Bahçe, Yapı Market/IşGüvenl
 import baby from "../Database/Filters/Anne, Bebek, Oyuncak/Annebebekürünleri.json";
 import toys from "../Database/Filters/Anne, Bebek, Oyuncak/oyuncaklar.json";
 import lactation from "../Database/Filters/Anne, Bebek, Oyuncak/Emzirmebeslenme.json";
+import babyroom from "../Database/Filters/Anne, Bebek, Oyuncak/Bebekodasivegüvenlik.json";
+import diaper from "../Database/Filters/Anne, Bebek, Oyuncak/BebekBezi.json";
+import babycare from "../Database/Filters/Anne, Bebek, Oyuncak/BebekBakım.json";
+import allsports from "../Database/Filters/Spor, Outdoor/TümSporÜrünleri.json";
 
 import common from "../Database/Filters/CommonFilters.json";
 
@@ -103,8 +107,16 @@ export default function SwitchFilter(props) {
       return baby;
     case "toys":
       return toys;
-      case "lactation":
-        return lactation;
+    case "lactation":
+      return lactation;
+    case "babyroom":
+      return babyroom;
+    case "diaper":
+      return diaper;
+    case "babycare":
+      return babycare;
+      case "allsports":
+        return allsports;
     default:
       return common;
   }
