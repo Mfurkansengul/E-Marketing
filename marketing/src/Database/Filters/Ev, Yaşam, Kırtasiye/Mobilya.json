@@ -1,0 +1,37 @@
+{
+    "Kategori": [
+        "Oturma Odası",
+        "Yatak Odası",
+        "Genç Odası",
+        "Antre / Hol",
+        "Yemek Odası",
+        "Çalışma Odası",
+        "Mutfak",
+        "Ofis Mobilyaları",
+        "Bebek Odası",
+        "Banyo Dolapları",
+        "Çocuk Odası"
+    ],
+    "Marka": [
+        "İstikbal",
+        "Enza Home",
+        "Bellona",
+        "Kelebek Mobilya",
+        "Hepsiburada Home",
+        "Yıldız Mobilya",
+        "RomanoDizayn",
+        "Kenz Life",
+        "Evimo",
+        "Engince",
+        "Cadde Yıldız",
+        "Doressa",
+        "Setay",
+        "Bengi",
+        "Evistro",
+        "Larose",
+        "Masifart",
+        "Minar",
+        "Maksa Mimarlık",
+        "Mobilya Baba"
+    ]
+}

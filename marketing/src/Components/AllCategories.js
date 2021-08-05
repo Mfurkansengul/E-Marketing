@@ -14,21 +14,33 @@ function AllCategories() {
             title={`Elektronik`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1" href="/products">
+            <Dropdown.Item eventKey="1" href="/products/computer">
               Bilgisayar / Tablet
             </Dropdown.Item>
-            <Dropdown.Item eventKey="2">Yazıcılar & Projeksiyon</Dropdown.Item>
-            <Dropdown.Item eventKey="3">
+            <Dropdown.Item eventKey="2" href="/products/printer">
+              Yazıcılar & Projeksiyon
+            </Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/phone">
               Telefon & Telefon Aksesuarları
             </Dropdown.Item>
-            <Dropdown.Item eventKey="4">
+            <Dropdown.Item eventKey="4" href="/products/tv">
               Tv, Görüntü & Ses Sistemleri
             </Dropdown.Item>
-            <Dropdown.Item eventKey="5">Beyaz Eşya</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Klima Ve Isıtıcalar</Dropdown.Item>
-            <Dropdown.Item eventKey="7">Elektrik Ev Aletleri</Dropdown.Item>
-            <Dropdown.Item eventKey="8">Foto & Kamera</Dropdown.Item>
-            <Dropdown.Item eventKey="9">Oyun & Oyun Konsoları</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/appliances">
+              Beyaz Eşya
+            </Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/ac">
+              Klima Ve Isıtıcalar
+            </Dropdown.Item>
+            <Dropdown.Item eventKey="7" href="/products/kitchen">
+              Elektrik Ev Aletleri
+            </Dropdown.Item>
+            <Dropdown.Item eventKey="8" href="/products/cam">
+              Foto & Kamera
+            </Dropdown.Item>
+            <Dropdown.Item eventKey="9" href="/products/games">
+              Oyun & Oyun Konsoları
+            </Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -43,15 +55,11 @@ function AllCategories() {
             title={`Moda`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Kadın</Dropdown.Item>
-            <Dropdown.Item eventKey="2">Kadın Aksesuar & Takı</Dropdown.Item>
-            <Dropdown.Item eventKey="3">Erkek</Dropdown.Item>
-            <Dropdown.Item eventKey="4">Erkek Aksesuar & Takı</Dropdown.Item>
-            <Dropdown.Item eventKey="5">Altın</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Outdoor Giyim & Ayakkabı</Dropdown.Item>
-            <Dropdown.Item eventKey="7">Ayakkabı & Çanta</Dropdown.Item>
-            <Dropdown.Item eventKey="8">Çocuk</Dropdown.Item>
-            <Dropdown.Item eventKey="9">Yurt Dışında</Dropdown.Item>
+            <Dropdown.Item eventKey="1" href="/products/women">Kadın</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/men">Erkek</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/gold">Altın</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/outdoor">Outdoor Giyim & Ayakkabı</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/kids">Çocuk</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -66,20 +74,18 @@ function AllCategories() {
             title={`Ev, Yaşam, Kırtasiye`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Sofra & Mutfak</Dropdown.Item>
-            <Dropdown.Item eventKey="2">
+            <Dropdown.Item eventKey="1" href="/products/table">Sofra & Mutfak</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/household">
               Ev Gereçleri & Ütü Masası
             </Dropdown.Item>
-            <Dropdown.Item eventKey="3">Mobilya</Dropdown.Item>
-            <Dropdown.Item eventKey="4">Aydınlatma</Dropdown.Item>
-            <Dropdown.Item eventKey="5">Ev Tekstil</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Ev Dekorasyan</Dropdown.Item>
-            <Dropdown.Item eventKey="7">Yatak</Dropdown.Item>
-            <Dropdown.Item eventKey="8">Ofis Mobilyaları</Dropdown.Item>
-            <Dropdown.Item eventKey="9">ofis / Kırtasiye</Dropdown.Item>
-            <Dropdown.Item eventKey="10">Banyo</Dropdown.Item>
-            <Dropdown.Item eventKey="11">Elektrikli Ev Aletleri</Dropdown.Item>
-            <Dropdown.Item eventKey="12">Yurt Dışında</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/furniture">Mobilya</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/lighting">Aydınlatma</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/hometextile">Ev Tekstil</Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/decoration">Ev Dekorasyan</Dropdown.Item>
+            <Dropdown.Item eventKey="7" href="/products/bed">Yatak</Dropdown.Item>
+            <Dropdown.Item eventKey="8" href="/products/officefurniture">Ofis Mobilyaları</Dropdown.Item>
+            <Dropdown.Item eventKey="9" href="/products/officestationery">Ofis / Kırtasiye</Dropdown.Item>
+            <Dropdown.Item eventKey="10" href="/products/bath">Banyo</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -94,14 +100,13 @@ function AllCategories() {
             title={`Oto, Bahçe, Yapı Market`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Oto Aksesuar</Dropdown.Item>
-            <Dropdown.Item eventKey="2">Tüm Motosiklet Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="3">Bahçe</Dropdown.Item>
-            <Dropdown.Item eventKey="4">Banyo</Dropdown.Item>
-            <Dropdown.Item eventKey="5">Eletrik & Tesisat</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Yapı Market</Dropdown.Item>
-            <Dropdown.Item eventKey="7">İş Güvenliği</Dropdown.Item>
-            <Dropdown.Item eventKey="8">Yurt Dışında</Dropdown.Item>
+            <Dropdown.Item eventKey="1" href="/products/autoaccessory">Oto Aksesuar</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/allmotorcycle">Tüm Motosiklet Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/garden">Bahçe</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/bath">Banyo</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/electrik">Eletrik & Tesisat</Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/construction">Yapı Market</Dropdown.Item>
+            <Dropdown.Item eventKey="7" href="/products/worksafety">İş Güvenliği</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -128,7 +133,6 @@ function AllCategories() {
               Bebek Bakım & Banyo & Sağlık
             </Dropdown.Item>
             <Dropdown.Item eventKey="8">Giyim</Dropdown.Item>
-            <Dropdown.Item eventKey="9">Yurt Dışında</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -163,7 +167,6 @@ function AllCategories() {
             <Dropdown.Item eventKey="14">
               Outdoor Elektirik & Optik
             </Dropdown.Item>
-            <Dropdown.Item eventKey="15">Yurt Dışında</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -198,7 +201,6 @@ function AllCategories() {
             <Dropdown.Item eventKey="16">El Dezenfektanı</Dropdown.Item>
             <Dropdown.Item eventKey="17">Maske & Eldiven</Dropdown.Item>
             <Dropdown.Item eventKey="18">besin Tavsiyeleri</Dropdown.Item>
-            <Dropdown.Item eventKey="19">Yurt Dışında</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -226,7 +228,6 @@ function AllCategories() {
             <Dropdown.Item eventKey="7">Pet Shop</Dropdown.Item>
             <Dropdown.Item eventKey="8">Ev Tüketim Malzemeleri</Dropdown.Item>
             <Dropdown.Item eventKey="9">Ofis Tüketim Malzemeleri</Dropdown.Item>
-            <Dropdown.Item eventKey="10">Yurt Dışında</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -248,8 +249,7 @@ function AllCategories() {
             <Dropdown.Item eventKey="3">Drone Multikopter</Dropdown.Item>
             <Dropdown.Item eventKey="4">Hobi & Oyun</Dropdown.Item>
             <Dropdown.Item eventKey="5">Film</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Yurt Dışında</Dropdown.Item>
-            <Dropdown.Item eventKey="7">Dijital Ürünler</Dropdown.Item>
+            <Dropdown.Item eventKey="6">Dijital Ürünler</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>

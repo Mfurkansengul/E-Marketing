@@ -1,0 +1,35 @@
+{
+    "Kategori": [
+        "Yemek Hazırlama",
+        "Pişirme",
+        "Fırında Pişirme",
+        "Sofra, Servis & Sunum",
+        "Çay & Kahve Demleme",
+        "Saklama, Düzenleme",
+        "Termoslar",
+        "Çeyiz Setleri",
+        "Endüstriyel Mutfak Gereçleri"
+    ],
+    "Marka": [
+        "Karaca",
+        "Tefal",
+        "Emsan",
+        "Korkmaz",
+        "Schafer",
+        "Taç",
+        "Jumbo",
+        "Porland",
+        "Lava",
+        "Kütahya Porselen",
+        "Paşabahçe",
+        "WMF",
+        "Güral Porselen",
+        "Madame Coco",
+        "Fizello",
+        "Hediye Dükkanı",
+        "Baskı Dükkanı",
+        "Hediyehanem",
+        "Pixxa",
+        "Dantes Hediye"
+    ]
+}

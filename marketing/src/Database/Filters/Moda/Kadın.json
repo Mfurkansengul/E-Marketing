@@ -1,0 +1,39 @@
+{
+    "Kategoriler": [
+        "Giyim",
+        "İç Giyim",
+        "Plaj Giyim",
+        "Ayakkabı",
+        "Çanta",
+        "Aksesuar",
+        "Tesettür Giyim",
+        "Hamile Giyim",
+        "Büyük Beden",
+        "Saat",
+        "Güneş Gözlüğü",
+        "Takı & Bijuteri",
+        "Mücevher"
+    ],
+    "Kadın Ayakkabı": [
+        "Kadın Ayakkabı",
+        "Günlük Ayakkabı",
+        "Spor Ayakkabı",
+        "Klasik Ayakkabı",
+        "Topuklu Ayakkabı",
+        "Bot & Çizme",
+        "Terlik",
+        "Kadın Sandalet"
+    ],
+    "Marka": [
+        "LC Waikiki",
+        "U.S. Polo Assn.",
+        "Mavi",
+        "Penti",
+        "Koton",
+        "Nike",
+        "DeFacto",
+        "Kemal Tanca",
+        "Tommy Hilfiger",
+        "Puma"
+    ]
+}

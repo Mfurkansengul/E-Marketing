@@ -4,7 +4,7 @@ import Categories from "../Components/Categories";
 import Filters from "../Components/Filters";
 import Paginations from "../Components/Paginations";
 
-function Products() {
+function Products(props) {
   return (
     <div className="Products">
       <Header />
@@ -77,13 +77,237 @@ function Products() {
                   </Card.Body>
                 </Card>
               </Col>
+              <Col>
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>              
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>            
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mb-4">
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                  />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      This is a loger card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
             </Row>
-            <Row className="mt-3">
+            <Row className="mt-3 d-flex justify-content-center">
               <Paginations />
             </Row>
           </Col>
           <Col md={2}>
-            <Filters />
+            <Filters products={props} />
           </Col>
         </Row>
       </Container>
