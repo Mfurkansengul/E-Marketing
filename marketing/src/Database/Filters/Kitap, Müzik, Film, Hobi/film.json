@@ -1,0 +1,35 @@
+{
+    "Kategori": [
+        "Yabancı Film",
+        "Yerli Film",
+        "Animasyon / Çizgi Film",
+        "Belgesel",
+        "Müzik / Sahne",
+        "Poster",
+        "Film Figür / Aksesuarları",
+        "Eğitim / Sağlık",
+        "Spor / Yoga / Hobi"
+    ],
+    "Marka": [
+        "Amerikan BR",
+        "13 Poster",
+        "Pyramid International",
+        "GB Eye",
+        "DVD",
+        "Termofom",
+        "Yeni Film",
+        "Grupoerik",
+        "Marple's",
+        "Kanal D Home",
+        "Pal",
+        "YCB Tasarım",
+        "Sihir Dükkanı",
+        "HERBİSEEY",
+        "Bir Film",
+        "Tiglon",
+        "Universal",
+        "Şirinler",
+        "Wizarding World",
+        "Blu-ray"
+    ]
+}

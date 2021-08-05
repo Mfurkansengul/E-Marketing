@@ -1,0 +1,32 @@
+{
+    "Kategori": [
+        "Çay",
+        "Kahve",
+        "Gazsız İçecek",
+        "Gazlı İçecek",
+        "Su, Maden Suyu",
+        "İçecek Şurubu"
+    ],
+    "Marka": [
+        "Çaykur",
+        "Lipton",
+        "Nescafe",
+        "Tchibo",
+        "Nurs",
+        "Akzer",
+        "Doğuş",
+        "Doğadan",
+        "Mecitefendi",
+        "Nursima",
+        "By Tüfekçi",
+        "Tisan",
+        "Jacobs",
+        "FO",
+        "Ofçay",
+        "Arifoğlu",
+        "Beta Tea",
+        "Nish Kahve",
+        "Trescol",
+        "Altıncezve"
+    ]
+}

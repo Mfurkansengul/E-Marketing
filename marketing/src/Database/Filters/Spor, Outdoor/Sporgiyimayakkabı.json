@@ -1,0 +1,22 @@
+{
+    "Kategori": [
+        "Ayakkabı",
+        "Giyim",
+        "Outdoor Giyim",
+        "Aksesuar"
+    ],
+    "Marka": [
+        "adidas",
+        "Nike",
+        "Puma",
+        "Reebok",
+        "Skechers",
+        "New Balance",
+        "Hummel",
+        "Under Armour",
+        "Lumberjack",
+        "Lescon",
+        "Slazenger",
+        "Kinetix"
+    ]
+}

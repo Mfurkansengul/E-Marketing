@@ -124,8 +124,110 @@ export default function Routes() {
             <Route exact path="/products/allsports">
             <Products product="allsports" />
             </Route>
-            <Route exact path="/products/worksafety">
-            <Products product="worksafety" />
+            <Route exact path="/products/alloutdoor">
+            <Products product="alloutdoor" />
+            </Route>
+            <Route exact path="/products/sportswearshoes">
+            <Products product="sportswearshoes" />
+            </Route>
+            <Route exact path="/products/outdoorshoes">
+            <Products product="outdoorshoes" />
+            </Route>
+            <Route exact path="/products/fitnesscondition">
+            <Products product="fitnesscondition" />
+            </Route>
+            <Route exact path="/products/scooterpaten">
+            <Products product="scooterpaten" />
+            </Route>
+            <Route exact path="/products/sportsbranches">
+            <Products product="sportsbranches" />
+            </Route>
+            <Route exact path="/products/bycyle">
+            <Products product="bycyle" />
+            </Route>
+            <Route exact path="/products/fanproducts">
+            <Products product="fanproducts" />
+            </Route>
+            <Route exact path="/products/campingtools">
+            <Products product="campingtools" />
+            </Route>
+            <Route exact path="/products/waterproducts">
+            <Products product="waterproducts" />
+            </Route>
+            <Route exact path="/products/fishinggear">
+            <Products product="fishinggear" />
+            </Route>
+            <Route exact path="/products/actioncamera">
+            <Products product="actioncamera" />
+            </Route>
+            <Route exact path="/products/cosmetic">
+            <Products product="cosmetic" />
+            </Route>
+            <Route exact path="/products/perfume">
+            <Products product="perfume" />
+            </Route>
+            <Route exact path="/products/makeup">
+            <Products product="makeup" />
+            </Route>
+            <Route exact path="/products/skincare">
+            <Products product="skincare" />
+            </Route>
+            <Route exact path="/products/suncare">
+            <Products product="suncare" />
+            </Route>
+            <Route exact path="/products/personalcare">
+            <Products product="personalcare" />
+            </Route>
+            <Route exact path="/products/oralcare">
+            <Products product="oralcare" />
+            </Route>
+            <Route exact path="/products/shavingproducts">
+            <Products product="shavingproducts" />
+            </Route>
+            <Route exact path="/products/supermarkethomepage">
+            <Products product="supermarkethomepage" />
+            </Route>
+            <Route exact path="/products/detergentcleaning">
+            <Products product="detergentcleaning" />
+            </Route>
+            <Route exact path="/products/diaperswetwipes">
+            <Products product="diaperswetwipes" />
+            </Route>
+            <Route exact path="/products/paperproducts">
+            <Products product="paperproducts" />
+            </Route>
+            <Route exact path="/products/beverages">
+            <Products product="beverages" />
+            </Route>
+            <Route exact path="/products/foodproducts">
+            <Products product="foodproducts" />
+            </Route>
+            <Route exact path="/products/petshop">
+            <Products product="petshop" />
+            </Route>
+            <Route exact path="/products/householdconsumables">
+            <Products product="householdconsumables" />
+            </Route>
+            <Route exact path="/products/officeconsumables">
+            <Products product="officeconsumables" />
+            </Route>
+            <Route exact path="/products/bookmagazine">
+            <Products product="bookmagazine" />
+            </Route>
+            <Route exact path="/products/musicainstrumentsmaterials">
+            <Products product="musicainstrumentsmaterials" />
+            </Route>
+            <Route exact path="/products/dronemultikopter">
+            <Products product="dronemultikopter" />
+            </Route>
+            <Route exact path="/products/hobbygame">
+            <Products product="hobbygame" />
+            </Route>
+            <Route exact path="/products/film">
+            <Products product="film" />
+            </Route>
+            <Route exact path="/products/digitalproducts">
+            <Products product="digitalproducts" />
             </Route>
       </Switch>
       ;

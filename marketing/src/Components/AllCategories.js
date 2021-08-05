@@ -146,25 +146,22 @@ function AllCategories() {
             className="w-100"
           >
             <Dropdown.Item eventKey="1" href="/products/allsports">Tüm Spor Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="2" href="/products/babycare">Tüm Outdoor Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="3" href="/products/babycare">Spor-Ayakkabı</Dropdown.Item>
-            <Dropdown.Item eventKey="4" href="/products/babycare">Outdoor-Ayakkabı</Dropdown.Item>
-            <Dropdown.Item eventKey="5" href="/products/babycare">Fitness-Kondisyon</Dropdown.Item>
-            <Dropdown.Item eventKey="6" href="/products/babycare">
+            <Dropdown.Item eventKey="2" href="/products/alloutdoor">Tüm Outdoor Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/sportswearshoes">Spor-Ayakkabı</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/outdoorshoes">Outdoor-Ayakkabı</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/fitnesscondition">Fitness-Kondisyon</Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/scooterpaten">
               Elektrikli Scooter-Paten-Kaykay
             </Dropdown.Item>
-            <Dropdown.Item eventKey="7" href="/products/babycare">Spor Branşları</Dropdown.Item>
-            <Dropdown.Item eventKey="8" href="/products/babycare">Bisiklet</Dropdown.Item>
-            <Dropdown.Item eventKey="9" href="/products/babycare">Taraftar Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="10" href="/products/babycare">
+            <Dropdown.Item eventKey="7" href="/products/sportsbranches">Spor Branşları</Dropdown.Item>
+            <Dropdown.Item eventKey="8" href="/products/bycyle">Bisiklet</Dropdown.Item>
+            <Dropdown.Item eventKey="9" href="/products/fanproducts">Taraftar Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="10" href="/products/campingtools">
               Kamp & Kampçılık Malzemeleri
             </Dropdown.Item>
-            <Dropdown.Item eventKey="11" href="/products/babycare">Şişme Su Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="12" href="/products/babycare">Balıkçılık Avcılık</Dropdown.Item>
-            <Dropdown.Item eventKey="13" href="/products/babycare">Aksiyon Kamera</Dropdown.Item>
-            <Dropdown.Item eventKey="14" href="/products/babycare">
-              Outdoor Elektirik & Optik
-            </Dropdown.Item>
+            <Dropdown.Item eventKey="11" href="/products/waterproducts">Şişme Su Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="12" href="/products/fishinggear">Balıkçılık Avcılık</Dropdown.Item>
+            <Dropdown.Item eventKey="13" href="/products/actioncamera">Aksiyon Kamera</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -179,26 +176,14 @@ function AllCategories() {
             title={`Kozmetik, Kişisel Bakım`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Kozmetik</Dropdown.Item>
-            <Dropdown.Item eventKey="2">Parfüm</Dropdown.Item>
-            <Dropdown.Item eventKey="3">Makyaj</Dropdown.Item>
-            <Dropdown.Item eventKey="4">Cilt Bakımı</Dropdown.Item>
-            <Dropdown.Item eventKey="5">Güneş Bakımı</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Kişisel Bakım</Dropdown.Item>
-            <Dropdown.Item eventKey="7">Ağız Bakım</Dropdown.Item>
-            <Dropdown.Item eventKey="8">Traş Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="9">Duş Jel</Dropdown.Item>
-            <Dropdown.Item eventKey="10">Saç Bakım</Dropdown.Item>
-            <Dropdown.Item eventKey="11">Epilasyon & Ağda</Dropdown.Item>
-            <Dropdown.Item eventKey="12">
-              Aile Planlaması Ve Cinsel Sağlık
-            </Dropdown.Item>
-            <Dropdown.Item eventKey="13">Deodorant</Dropdown.Item>
-            <Dropdown.Item eventKey="14">Sıvı Sabun</Dropdown.Item>
-            <Dropdown.Item eventKey="15">Kolonya</Dropdown.Item>
-            <Dropdown.Item eventKey="16">El Dezenfektanı</Dropdown.Item>
-            <Dropdown.Item eventKey="17">Maske & Eldiven</Dropdown.Item>
-            <Dropdown.Item eventKey="18">besin Tavsiyeleri</Dropdown.Item>
+            <Dropdown.Item eventKey="1" href="/products/cosmetic">Kozmetik</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/perfume">Parfüm</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/makeup">Makyaj</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/skincare">Cilt Bakımı</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/suncare">Güneş Bakımı</Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/personalcare">Kişisel Bakım</Dropdown.Item>
+            <Dropdown.Item eventKey="7" href="/products/oralcare">Ağız Bakım</Dropdown.Item>
+            <Dropdown.Item eventKey="8" href="/products/shavingproducts">Traş Ürünleri</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -213,19 +198,19 @@ function AllCategories() {
             title={`Süper Market, Pet Shop`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Süper Market Anasayfa</Dropdown.Item>
-            <Dropdown.Item eventKey="2">
+            <Dropdown.Item eventKey="1" href="/products/supermarkethomepage">Süper Market Anasayfa</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/detergentcleaning">
               Deterjan & Temzilik Ürünleri
             </Dropdown.Item>
-            <Dropdown.Item eventKey="3">
+            <Dropdown.Item eventKey="3" href="/products/diaperswetwipes">
               Bebek Bezleri Ve Islak Mendil
             </Dropdown.Item>
-            <Dropdown.Item eventKey="4">Kağıt Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="5">İçecekler</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Gıda Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="7">Pet Shop</Dropdown.Item>
-            <Dropdown.Item eventKey="8">Ev Tüketim Malzemeleri</Dropdown.Item>
-            <Dropdown.Item eventKey="9">Ofis Tüketim Malzemeleri</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/paperproducts">Kağıt Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/beverages">İçecekler</Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/foodproducts">Gıda Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="7" href="/products/petshop">Pet Shop</Dropdown.Item>
+            <Dropdown.Item eventKey="8" href="/products/householdconsumables">Ev Tüketim Malzemeleri</Dropdown.Item>
+            <Dropdown.Item eventKey="9" href="/products/officeconsumables">Ofis Tüketim Malzemeleri</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>
@@ -240,14 +225,14 @@ function AllCategories() {
             title={`Kitap, Müzik, Film, Hobi`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Kitap & Dergi</Dropdown.Item>
-            <Dropdown.Item eventKey="2">
+            <Dropdown.Item eventKey="1" href="/products/bookmagazine">Kitap & Dergi</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/musicainstrumentsmaterials">
               Müzik Enstrümanları Ve Ekipmanları
             </Dropdown.Item>
-            <Dropdown.Item eventKey="3">Drone Multikopter</Dropdown.Item>
-            <Dropdown.Item eventKey="4">Hobi & Oyun</Dropdown.Item>
-            <Dropdown.Item eventKey="5">Film</Dropdown.Item>
-            <Dropdown.Item eventKey="6">Dijital Ürünler</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/dronemultikopter">Drone Multikopter</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/hobbygame">Hobi & Oyun</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/film">Film</Dropdown.Item>
+            <Dropdown.Item eventKey="6" href="/products/digitalproducts">Dijital Ürünler</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>

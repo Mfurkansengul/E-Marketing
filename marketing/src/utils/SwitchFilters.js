@@ -27,15 +27,49 @@ import allmotorcycle from "../Database/Filters/Oto, Bahçe, Yapı Market/tümmot
 import garden from "../Database/Filters/Oto, Bahçe, Yapı Market/Bahce.json";
 import bathroom from "../Database/Filters/Oto, Bahçe, Yapı Market/Banyo.json";
 import electrik from "../Database/Filters/Oto, Bahçe, Yapı Market/ElektrikTesisat.json";
-import construction from "../Database/Filters/Oto, Bahçe, Yapı Market/YapıMarket.json";
+import construction from "../Database/Filters/Oto, Bahçe, Yapı Market/YapiMarket.json";
 import worksafety from "../Database/Filters/Oto, Bahçe, Yapı Market/IşGüvenligi.json";
 import baby from "../Database/Filters/Anne, Bebek, Oyuncak/Annebebekürünleri.json";
 import toys from "../Database/Filters/Anne, Bebek, Oyuncak/oyuncaklar.json";
 import lactation from "../Database/Filters/Anne, Bebek, Oyuncak/Emzirmebeslenme.json";
 import babyroom from "../Database/Filters/Anne, Bebek, Oyuncak/Bebekodasivegüvenlik.json";
 import diaper from "../Database/Filters/Anne, Bebek, Oyuncak/BebekBezi.json";
-import babycare from "../Database/Filters/Anne, Bebek, Oyuncak/BebekBakım.json";
+import babycare from "../Database/Filters/Anne, Bebek, Oyuncak/BebekBakim.json";
 import allsports from "../Database/Filters/Spor, Outdoor/TümSporÜrünleri.json";
+import alloutdoor from "../Database/Filters/Spor, Outdoor/Tümoutdoorürünleri.json";
+import sportswearshoes from "../Database/Filters/Spor, Outdoor/Sporgiyimayakkabı.json";
+import outdoorshoes from "../Database/Filters/Spor, Outdoor/outdoorayakkabı.json";
+import fitnesscondition from "../Database/Filters/Spor, Outdoor/Fitnesskondisyon.json";
+import scooterpaten from "../Database/Filters/Spor, Outdoor/elektrikliscooterpaken.json";
+import sportsbranches from "../Database/Filters/Spor, Outdoor/sporbraslari.json";
+import bycyle from "../Database/Filters/Spor, Outdoor/bisiklet.json";
+import fanproducts from "../Database/Filters/Spor, Outdoor/taraftarürünleri.json";
+import campingtools from "../Database/Filters/Spor, Outdoor/Kampmalzemeleri.json";
+import waterproducts from "../Database/Filters/Spor, Outdoor/sismesuürünleri.json";
+import fishinggear from "../Database/Filters/Spor, Outdoor/balikavmalzemeleri.json";
+import actioncamera from "../Database/Filters/Spor, Outdoor/asksiyonkamera.json";
+import cosmetic from "../Database/Filters/Kozmetik, Kişisel Bakım/kozmetik.json";
+import perfume from "../Database/Filters/Kozmetik, Kişisel Bakım/parfüm.json";
+import makeup from "../Database/Filters/Kozmetik, Kişisel Bakım/makyaj.json";
+import skincare from "../Database/Filters/Kozmetik, Kişisel Bakım/ciltbakimi.json";
+import suncare from "../Database/Filters/Kozmetik, Kişisel Bakım/günesbakimi.json";
+import personalcare from "../Database/Filters/Kozmetik, Kişisel Bakım/kisiselbakim.json";
+import oralcare from "../Database/Filters/Kozmetik, Kişisel Bakım/agizbakimi.json";
+import shavingproducts from "../Database/Filters/Kozmetik, Kişisel Bakım/trasürünleri.json";
+import supermarkethomepage from "../Database/Filters/Süper Market, Pet Shop/Süpermarketanasayfa.json";
+import detergentcleaning from "../Database/Filters/Süper Market, Pet Shop/deterjantemizlikürünleri.json";
+import diaperswetwipes from "../Database/Filters/Süper Market, Pet Shop/bebekbeziveislakmendil.json";
+import paperproducts from "../Database/Filters/Süper Market, Pet Shop/kagıtürünleri.json";
+import beverages from "../Database/Filters/Süper Market, Pet Shop/icecekler.json";
+import foodproducts from "../Database/Filters/Süper Market, Pet Shop/gidaürünleri.json";
+import householdconsumables from "../Database/Filters/Süper Market, Pet Shop/evtüketimmalzemeleri.json";
+import officeconsumables from "../Database/Filters/Süper Market, Pet Shop/ofistüketimmalzemeleri.json";
+import bookmagazine from "../Database/Filters/Kitap, Müzik, Film, Hobi/kitapdergi.json";
+import musicainstrumentsmaterials from "../Database/Filters/Kitap, Müzik, Film, Hobi/müzikenstrumanlarivemalzemeleri.json";
+import dronemultikopter from "../Database/Filters/Kitap, Müzik, Film, Hobi/dronemultikopter.json";
+import hobbygame from "../Database/Filters/Kitap, Müzik, Film, Hobi/hobioyun.json";
+import film from "../Database/Filters/Kitap, Müzik, Film, Hobi/film.json";
+import digitalproducts from "../Database/Filters/Kitap, Müzik, Film, Hobi/dijitalürünler.json";
 
 import common from "../Database/Filters/CommonFilters.json";
 
@@ -115,8 +149,76 @@ export default function SwitchFilter(props) {
       return diaper;
     case "babycare":
       return babycare;
-      case "allsports":
-        return allsports;
+    case "allsports":
+      return allsports;
+    case "alloutdoor":
+      return alloutdoor;
+    case "sportswearshoes":
+      return sportswearshoes;
+    case "outdoorshoes":
+      return outdoorshoes;
+    case "fitnesscondition":
+      return fitnesscondition;
+    case "scooterpaten":
+      return scooterpaten;
+    case "sportsbranches":
+      return sportsbranches;
+    case "bycyle":
+      return bycyle;
+    case "fanproducts":
+      return fanproducts;
+    case "campingtools":
+      return campingtools;
+    case "waterproducts":
+      return waterproducts;
+    case "fishinggear":
+      return fishinggear;
+    case actioncamera:
+      return actioncamera;
+    case "cosmetic":
+      return cosmetic;
+    case "perfume":
+      return perfume;
+    case "makeup":
+      return makeup;
+    case "skincare":
+      return skincare;
+    case "suncare":
+      return suncare;
+    case "personalcare":
+      return personalcare;
+    case "oralcare":
+      return oralcare;
+    case "shavingproducts":
+      return shavingproducts;
+    case "supermarkethomepage":
+      return supermarkethomepage;
+    case "detergentcleaning":
+      return detergentcleaning;
+    case "diaperswetwipes":
+      return diaperswetwipes;
+    case "paperproducts":
+      return paperproducts;
+    case "beverages":
+      return beverages;
+    case "foodproducts":
+      return foodproducts;
+    case "householdconsumables":
+      return householdconsumables;
+    case "officeconsumables":
+      return officeconsumables;
+    case "bookmagazine":
+      return bookmagazine;
+    case "musicainstrumentsmaterials":
+      return musicainstrumentsmaterials;
+    case "dronemultikopter":
+      return dronemultikopter;
+    case "hobbygame":
+      return hobbygame;
+    case "film":
+      return film;
+    case "digitalproducts":
+      return digitalproducts;
     default:
       return common;
   }

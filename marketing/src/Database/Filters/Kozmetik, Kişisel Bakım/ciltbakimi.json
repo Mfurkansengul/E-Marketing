@@ -1,0 +1,35 @@
+{
+    "Kategori": [
+        "Yüz Bakımı",
+        "Göz Bakımı",
+        "Dudak Bakımı",
+        "Vücut Bakımı",
+        "Cilt Bakım Ürünleri",
+        "El, Ayak & Tırnak Bakımı",
+        "Erkek Bakım Ürünleri",
+        "Cilt Bakım Setleri",
+        "Dermokozmetik"
+    ],
+    "Marka": [
+        "La Roche-Posay",
+        "Bioderma",
+        "Nivea",
+        "Neutrogena",
+        "Loreal Paris",
+        "MISSHA",
+        "Garnier",
+        "Avene",
+        "Avon",
+        "Bepanthol",
+        "Diadermine",
+        "Peeling Market",
+        "Farmasi",
+        "Mecitefendi",
+        "LR",
+        "Oriflame",
+        "Scholl",
+        "Nuxe",
+        "Darphin",
+        "Caudalie"
+    ]
+}
