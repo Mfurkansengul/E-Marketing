@@ -22,6 +22,16 @@ import bed from "../Database/Filters/Ev, Yaşam, Kırtasiye/Yatak.json";
 import officefurniture from "../Database/Filters/Ev, Yaşam, Kırtasiye/OfisMobilyalari.json";
 import officestationery from "../Database/Filters/Ev, Yaşam, Kırtasiye/OfisKırtasiye.json";
 import bath from "../Database/Filters/Ev, Yaşam, Kırtasiye/Banyo.json";
+import autoaccessory from "../Database/Filters/Oto, Bahçe, Yapı Market/Otoaksesuar.json";
+import allmotorcycle from "../Database/Filters/Oto, Bahçe, Yapı Market/tümmotorürünleri.json";
+import garden from "../Database/Filters/Oto, Bahçe, Yapı Market/Bahce.json";
+import bathroom from "../Database/Filters/Oto, Bahçe, Yapı Market/Banyo.json";
+import electrik from "../Database/Filters/Oto, Bahçe, Yapı Market/ElektrikTesisat.json";
+import construction from "../Database/Filters/Oto, Bahçe, Yapı Market/YapıMarket.json";
+import worksafety from "../Database/Filters/Oto, Bahçe, Yapı Market/IşGüvenligi.json";
+import baby from "../Database/Filters/Anne, Bebek, Oyuncak/Annebebekürünleri.json";
+import toys from "../Database/Filters/Anne, Bebek, Oyuncak/oyuncaklar.json";
+import lactation from "../Database/Filters/Anne, Bebek, Oyuncak/Emzirmebeslenme.json";
 
 import common from "../Database/Filters/CommonFilters.json";
 
@@ -75,7 +85,27 @@ export default function SwitchFilter(props) {
       return officestationery;
     case "bath":
       return bath;
-      default:
+    case "autoaccessory":
+      return autoaccessory;
+    case "allmotorcycle":
+      return allmotorcycle;
+    case "garden":
+      return garden;
+    case "bathroom":
+      return bathroom;
+    case "electrik":
+      return electrik;
+    case "construction":
+      return construction;
+    case "worksafety":
+      return worksafety;
+    case "baby":
+      return baby;
+    case "toys":
+      return toys;
+      case "lactation":
+        return lactation;
+    default:
       return common;
   }
 }

@@ -103,7 +103,7 @@ function AllCategories() {
             <Dropdown.Item eventKey="1" href="/products/autoaccessory">Oto Aksesuar</Dropdown.Item>
             <Dropdown.Item eventKey="2" href="/products/allmotorcycle">Tüm Motosiklet Ürünleri</Dropdown.Item>
             <Dropdown.Item eventKey="3" href="/products/garden">Bahçe</Dropdown.Item>
-            <Dropdown.Item eventKey="4" href="/products/bath">Banyo</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/bathroom">Banyo</Dropdown.Item>
             <Dropdown.Item eventKey="5" href="/products/electrik">Eletrik & Tesisat</Dropdown.Item>
             <Dropdown.Item eventKey="6" href="/products/construction">Yapı Market</Dropdown.Item>
             <Dropdown.Item eventKey="7" href="/products/worksafety">İş Güvenliği</Dropdown.Item>
@@ -121,18 +121,17 @@ function AllCategories() {
             title={`Anne, Bebek, Oyuncak`}
             className="w-100"
           >
-            <Dropdown.Item eventKey="1">Anne Bebek Ürünleri</Dropdown.Item>
-            <Dropdown.Item eventKey="2">Oyuncuklar</Dropdown.Item>
-            <Dropdown.Item eventKey="3">Araç & Gereç</Dropdown.Item>
-            <Dropdown.Item eventKey="4">Emzirme & Bebek Beslenme</Dropdown.Item>
-            <Dropdown.Item eventKey="5">bebek Odası & Güvenlik</Dropdown.Item>
-            <Dropdown.Item eventKey="6">
+            <Dropdown.Item eventKey="1" href="/products/baby" >Anne Bebek Ürünleri</Dropdown.Item>
+            <Dropdown.Item eventKey="2" href="/products/toys">Oyuncuklar</Dropdown.Item>
+            <Dropdown.Item eventKey="3" href="/products/lactation">Emzirme & Bebek Beslenme</Dropdown.Item>
+            <Dropdown.Item eventKey="4" href="/products/babyroom">bebek Odası & Güvenlik</Dropdown.Item>
+            <Dropdown.Item eventKey="5" href="/products/diaper">
               Bebek Bezi & Islak Mendil
             </Dropdown.Item>
-            <Dropdown.Item eventKey="7">
+            <Dropdown.Item eventKey="6" href="/products/babycare">
               Bebek Bakım & Banyo & Sağlık
             </Dropdown.Item>
-            <Dropdown.Item eventKey="8">Giyim</Dropdown.Item>
+            <Dropdown.Item eventKey="7" href="/products/babyclothing">Giyim</Dropdown.Item>
           </DropdownButton>
         ))}
       </div>

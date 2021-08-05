@@ -1,0 +1,40 @@
+{
+    "Kategori": [
+        "Elektrikli El Aletleri",
+        "Manuel El Aletleri",
+        "Aydınlatma",
+        "Elektrik & Tesisat Malzemeleri",
+        "Banyo",
+        "Hırdavat",
+        "Güvenlik",
+        "İnşaat Malzemeleri",
+        "Jeneratör",
+        "Boya & Boya Malzemeleri",
+        "Hizmet",
+        "Ölçüm Cihazları",
+        "Oto Servis Ekipmanları",
+        "Ham Madde",
+        "Sanayi Makineleri"
+    ],
+    "Marka": [
+        "Bosch",
+        "İzeltaş",
+        "Einhell",
+        "Stanley",
+        "İzmir Serigrafi",
+        "Hafele",
+        "Kiparis",
+        "Cgds",
+        "Cata",
+        "Veronya",
+        "Canis Etiket",
+        "Motion",
+        "Viko",
+        "Technopa",
+        "Henge",
+        "Durbuldum",
+        "Emes",
+        "Ennalbur",
+        "Primanova"
+    ]
+}

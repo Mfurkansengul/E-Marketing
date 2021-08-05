@@ -82,6 +82,51 @@ export default function Routes() {
             <Route exact path="/products/bath">
             <Products product="bath" />
             </Route>
+            <Route exact path="/products/autoaccessory">
+            <Products product="autoaccessory" />
+            </Route>
+            <Route exact path="/products/allmotorcycle">
+            <Products product="allmotorcycle" />
+            </Route>
+            <Route exact path="/products/garden">
+            <Products product="garden" />
+            </Route>
+            <Route exact path="/products/bathroom">
+            <Products product="bathroom" />
+            </Route>
+            <Route exact path="/products/electrik">
+            <Products product="electrik" />
+            </Route>
+            <Route exact path="/products/construction">
+            <Products product="construction" />
+            </Route>
+            <Route exact path="/products/worksafety">
+            <Products product="worksafety" />
+            </Route>
+            <Route exact path="/products/baby">
+            <Products product="baby" />
+            </Route>
+            <Route exact path="/products/toys">
+            <Products product="toys" />
+            </Route>
+            <Route exact path="/products/lactation">
+            <Products product="lactation" />
+            </Route>
+            <Route exact path="/products/worksafety">
+            <Products product="worksafety" />
+            </Route>
+            <Route exact path="/products/worksafety">
+            <Products product="worksafety" />
+            </Route>
+            <Route exact path="/products/worksafety">
+            <Products product="worksafety" />
+            </Route>
+            <Route exact path="/products/worksafety">
+            <Products product="worksafety" />
+            </Route>
+            <Route exact path="/products/worksafety">
+            <Products product="worksafety" />
+            </Route>
       </Switch>
       ;
     </div>
