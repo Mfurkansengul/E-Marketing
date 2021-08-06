@@ -25,7 +25,7 @@ function SubCategories() {
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={500}>
+              <Carousel.Item interval={1000}>
                 <img
                   style={{ height: "455px" }}
                   className="d-block w-100"
@@ -39,7 +39,7 @@ function SubCategories() {
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item interval={1000}>
                 <img
                   style={{ height: "455px" }}
                   className="d-block w-100"

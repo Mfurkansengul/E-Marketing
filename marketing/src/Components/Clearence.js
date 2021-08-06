@@ -15,12 +15,14 @@ function Clearence() {
           <Row >
             <Col md={3} >
               <div id="clearence_section">
-                Clearence
+                <div className="text-center">Clearence</div>                
                 <CardGroup>
                   <Carousel>
                     <Carousel.Item>
                       <Card>
-                        <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card.Img 
+                        style={{ height:"364px"}}
+                        src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
                         <Card.Body>
                           <Card.Title>Card Title</Card.Title>
                         </Card.Body>
@@ -28,7 +30,9 @@ function Clearence() {
                     </Carousel.Item>
                     <Carousel.Item>
                       <Card>
-                        <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"/>
+                        <Card.Img
+                        style={{ height:"364px"}}
+                        src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"/>
                         <Card.Body>
                           <Card.Title>Card Title</Card.Title>
                         </Card.Body>
@@ -36,7 +40,9 @@ function Clearence() {
                     </Carousel.Item>
                     <Carousel.Item>
                       <Card>
-                        <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card.Img
+                        style={{ height:"364px"}}
+                        src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
                         <Card.Body>
                           <Card.Title>Card Title</Card.Title>
                         </Card.Body>
@@ -50,7 +56,7 @@ function Clearence() {
               <Row>
                 <Col md={6}>
                   <div id="recently_viewed">
-                    Recently Viewed
+                  <div className="text-center">Recently Viewed</div>
                     <Carousel>
                       <Carousel.Item>
                         <CardGroup>
@@ -159,7 +165,7 @@ function Clearence() {
                 </Col>
                 <Col md={6}>
                   <div id="buy_again">
-                    Buy Agaın
+                  <div className="text-center">Buy Again</div>
                     <Carousel>
                       <Carousel.Item>
                         <CardGroup>
@@ -269,7 +275,7 @@ function Clearence() {
               </Row>
               <Row>
                 <div id="best_seller">
-                  Best Seller
+                <div className="text-center">Best Seller</div>
                   <Carousel>
                     <Carousel.Item>
                       <CardGroup>

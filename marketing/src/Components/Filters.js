@@ -16,10 +16,10 @@ function Filters(props) {
               {key}
             </Form.Label>
             {product[key].map((item) => (
-              <div key={'${item}-checkbox'}>
+              <div key={`${item}-checkbox`}>
                 <Form.Check
                   type="checkbox"
-                  id={'${item}-checkbox'}
+                  id={`${item}-checkbox`}
                   label={item}
                 />
               </div>
@@ -32,10 +32,10 @@ function Filters(props) {
               {key}
             </Form.Label>
             {common[key].map((item) => (
-              <div key={'${item}-checkbox'}>
+              <div key={`${item}-checkbox`}>
                 <Form.Check
                   type="checkbox"
-                  id={'${item}-checkbox'}
+                  id={`${item}-checkbox`}
                   label={item}
                 />
               </div>

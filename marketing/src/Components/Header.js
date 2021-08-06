@@ -41,8 +41,9 @@ function Header() {
               <NavDropdown
                 title={<IoMdNotificationsOutline />}
                 id="navbarScrollingDropdown"
-                className="col-md-5"
-              ></NavDropdown>
+                className="col-md-5 "
+              > <NavDropdown.Item className="text-center">Bildiriminiz Bulunmamaktadır.</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link href="#action2" className="col-md-3">
                 <FaShoppingCart />
                 Cart
