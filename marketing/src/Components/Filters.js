@@ -8,7 +8,7 @@ function Filters(props) {
   const commonKeys = Object.keys(common);
 
   return (
-    <div className="Filters">
+    <div className="Filters" style={{maxHeight: "1100px", overflowY: "scroll"}}>
       <Form>
         {keys.map((key) => (
           <div>

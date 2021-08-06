@@ -5,24 +5,28 @@ import {
   Container,
   Row,
   Col,
+  Button,
 } from "react-bootstrap";
 
 function Clearence() {
   return (
-    <div className="Clearence">
+    <div className="Clearence" className="mt-4">
       <section id="clearence">
-        <Container fluid >
-          <Row >
-            <Col md={3} >
+        <Container fluid>
+          <Row>
+            <Col md={3}>
               <div id="clearence_section">
-                <div className="text-center">Clearence</div>                
+                <Button variant="success" className="w-100">
+                  İndirim
+                </Button>
                 <CardGroup>
                   <Carousel>
                     <Carousel.Item>
                       <Card>
-                        <Card.Img 
-                        style={{ height:"364px"}}
-                        src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card.Img
+                          style={{ height: "364px" }}
+                          src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                        />
                         <Card.Body>
                           <Card.Title>Card Title</Card.Title>
                         </Card.Body>
@@ -31,8 +35,9 @@ function Clearence() {
                     <Carousel.Item>
                       <Card>
                         <Card.Img
-                        style={{ height:"364px"}}
-                        src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"/>
+                          style={{ height: "364px" }}
+                          src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                        />
                         <Card.Body>
                           <Card.Title>Card Title</Card.Title>
                         </Card.Body>
@@ -41,8 +46,9 @@ function Clearence() {
                     <Carousel.Item>
                       <Card>
                         <Card.Img
-                        style={{ height:"364px"}}
-                        src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          style={{ height: "364px" }}
+                          src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                        />
                         <Card.Body>
                           <Card.Title>Card Title</Card.Title>
                         </Card.Body>
@@ -56,7 +62,9 @@ function Clearence() {
               <Row>
                 <Col md={6}>
                   <div id="recently_viewed">
-                  <div className="text-center">Recently Viewed</div>
+                    <Button variant="success" className="w-100">
+                      Son Bakılanlar
+                    </Button>
                     <Carousel>
                       <Carousel.Item>
                         <CardGroup>
@@ -73,40 +81,6 @@ function Clearence() {
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                        </CardGroup>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <CardGroup>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
                             <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
                             <Card.Body>
                               <Card.Title>Card Title</Card.Title>
@@ -147,7 +121,41 @@ function Clearence() {
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <CardGroup>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Body>
+                              <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
                             <Card.Body>
                               <Card.Title>Card Title</Card.Title>
                             </Card.Body>
@@ -165,7 +173,9 @@ function Clearence() {
                 </Col>
                 <Col md={6}>
                   <div id="buy_again">
-                  <div className="text-center">Buy Again</div>
+                    <Button variant="success" className="w-100">
+                      Yeniden Satın Al
+                    </Button>
                     <Carousel>
                       <Carousel.Item>
                         <CardGroup>
@@ -274,8 +284,10 @@ function Clearence() {
                 </Col>
               </Row>
               <Row>
-                <div id="best_seller">
-                <div className="text-center">Best Seller</div>
+                <div id="best_seller" className="m-3 w-100">
+                  <Button variant="success" className="w-100">
+                    En Çok Satanlar
+                  </Button>
                   <Carousel>
                     <Carousel.Item>
                       <CardGroup>
@@ -301,10 +313,10 @@ function Clearence() {
                           <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
                           <Card.Body>
                             <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
+                          </Card.Body>
                         </Card>
                         <Card>
-                          <Card.Img  src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
                           <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                           </Card.Body>

@@ -18,30 +18,30 @@ function Categories() {
             <Col md="auto">
               <ButtonToolbar aria-label="Toolbar with button groups" md="auto">
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-success" href="/produtcs">
-                    Super Price/Super Offer
+                  <Button variant="success" href="/products">
+                    Süper Fiyat, Süper Teklif
                   </Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-success" href="/produtcs">Imported Products</Button>
+                  <Button variant="success" href="/products">Yurt Dışından</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-success" href="/produtcs">Delivery Today</Button>
+                  <Button variant="success" href="/products">Bugün Teslimat</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-success" href="/produtcs">Offers</Button>
+                  <Button variant="success" href="/products">Kampanyalar</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-success" href="/produtcs">Top Sold</Button>
+                  <Button variant="success" href="/products">Çok Satanlar</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-success" href="/produtcs">Other Products</Button>
+                  <Button variant="success" href="/products">Diğer Ürünler</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2">
-                  <Button variant="outline-success" href="/produtcs">Gift Ideas</Button>
+                  <Button variant="success" href="/products">Hediye Rehberi</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2" >
-                  <DropdownButton title="Language/Currency" variant="outline-success" >
+                  <DropdownButton title="Language/Currency" variant="success" >
                     <Dropdown.Item>TR-TL</Dropdown.Item>
                     <Dropdown.Item>EN-TL</Dropdown.Item>
                     <Dropdown.Item>EN-USD</Dropdown.Item>

@@ -23,11 +23,11 @@ function Header() {
             <Form className="d-flex mr-4 col-xs-8 col-md-7">
               <FormControl
                 type="search"
-                placeholder="Search"
+                placeholder="Ara"
                 className="mr-2"
-                aria-label="Search"
+                aria-label="Ara"
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="outline-success">Ara</Button>
             </Form>
             <div className="col-md-2" ></div>
             <Nav
@@ -36,7 +36,7 @@ function Header() {
               navbarScroll
             >
               <Nav.Link href="/signIn" className="col-md-4">
-                <FaSignInAlt /> Sign In
+                <FaSignInAlt /> Giriş
               </Nav.Link>
               <NavDropdown
                 title={<IoMdNotificationsOutline />}
@@ -46,7 +46,7 @@ function Header() {
               </NavDropdown>
               <Nav.Link href="#action2" className="col-md-3">
                 <FaShoppingCart />
-                Cart
+                Sepet
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

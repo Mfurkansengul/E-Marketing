@@ -22,73 +22,73 @@ function SignIn() {
               id="uncontrolled-tab-example"
               className="mb-3 "
             >
-              <Tab eventKey="Home" title="Sign In">
+              <Tab eventKey="Home" title="Giriş">
                 <Form>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Label>E-Posta</Form.Label>
+                    <Form.Control type="email" placeholder="E-Posta" />
                     <Form.Text className="text-muted">
-                      We'll never share your email with anyone else.
+                      Bilgileriniz Kimse İle Paylaşılmayacaktır.
                     </Form.Text>
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
+                    <Form.Label>Şifre</Form.Label>
+                    <Form.Control type="password" placeholder="Şifre" />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Remember Me" />
+                    <Form.Check type="checkbox" label="Beni Hatırla" />
                   </Form.Group>
                   <Button variant="primary" type="submit" className="mr-2">
-                    Submit
+                    Giriş
                   </Button>
                   <Button type="reset" value="Reset">
-                    Reset
+                    Sıfırla
                   </Button>
                 </Form>
               </Tab>
-              <Tab eventKey="profile" title="Sign Up">
+              <Tab eventKey="profile" title="kayıt Ol">
                 <Form>
                   <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
-                      <Form.Label>Email</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email" />
+                      <Form.Label>E-Posta</Form.Label>
+                      <Form.Control type="email" placeholder="E-Posta" />
                     </Form.Group>
                     <Form.Group as={Col} controlId="formGridPassword">
-                      <Form.Label>Password</Form.Label>
-                      <Form.Control type="password" placeholder="Password" />
+                      <Form.Label>Şifre</Form.Label>
+                      <Form.Control type="password" placeholder="Şifre" />
                     </Form.Group>
                   </Row>
                   <Form.Group className="mb-3" controlId="formGridAddress1">
-                    <Form.Label>Address</Form.Label>
-                    <Form.Control placeholder="1234 Main St" />
+                    <Form.Label>Adres</Form.Label>
+                    <Form.Control placeholder="Atatürk Mah." />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formGridAddress2">
-                    <Form.Label>Address 2</Form.Label>
-                    <Form.Control placeholder="Apartment, studio, or floor" />
+                    <Form.Label>Adres 2</Form.Label>
+                    <Form.Control placeholder="Apartman, Daire, Kat" />
                   </Form.Group>
                   <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridCity">
-                      <Form.Label>City</Form.Label>
+                      <Form.Label>İlçe</Form.Label>
                       <Form.Control />
                     </Form.Group>
                     <Form.Group controlId="formGridState">
-                      <Form.Label>State</Form.Label>
+                      <Form.Label>İl</Form.Label>
                       <Form.Control as="select" custom>
-                        <option>AL</option>
-                        <option>OR</option>
-                        <option>WA</option>
+                        <option>İstanbul</option>
+                        <option>Ankara</option>
+                        <option>İzmir</option>
                       </Form.Control>
                     </Form.Group>
                     <Form.Group as={Col} controlId="formGridZip">
-                      <Form.Label>Zip</Form.Label>
+                      <Form.Label>Posta Kodu</Form.Label>
                       <Form.Control />
                     </Form.Group>
                   </Row>
                   <Form.Group className="mb-3" id="formGridCheckbox">
-                    <Form.Check type="checkbox" label="Remember Me" />
+                    <Form.Check type="checkbox" label="Beni Hatırla" />
                   </Form.Group>
                   <Button variant="primary" type="submit">
-                    Submit
+                    Kayıt Ol
                   </Button>
                 </Form>
               </Tab>

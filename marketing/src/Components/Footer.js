@@ -6,13 +6,13 @@ function Footer() {
         <div className="Footer">
             <footer id="footer">
                 <Breadcrumb>
-                    <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-                    <Breadcrumb.Item href="#">Solution Center</Breadcrumb.Item>
-                    <Breadcrumb.Item href="#">Communication</Breadcrumb.Item>
-                    <Breadcrumb.Item href="#">Payment Methods</Breadcrumb.Item>
-                    <Breadcrumb.Item href="#">Cancellation, Refund, Exchange</Breadcrumb.Item>
-                    <Breadcrumb.Item href="#">User Security</Breadcrumb.Item>
-                    <Breadcrumb.Item href="#">Live support</Breadcrumb.Item>
+                    <Breadcrumb.Item href="#">Ana Sayfa</Breadcrumb.Item>
+                    <Breadcrumb.Item href="#">Çözüm Merkezi</Breadcrumb.Item>
+                    <Breadcrumb.Item href="#">İletişim</Breadcrumb.Item>
+                    <Breadcrumb.Item href="#">Ödeme Methodları</Breadcrumb.Item>
+                    <Breadcrumb.Item href="#">İptal, İade, Değişim</Breadcrumb.Item>
+                    <Breadcrumb.Item href="#">Kullanıcı Güvenliği</Breadcrumb.Item>
+                    <Breadcrumb.Item href="#">Canlı Destek</Breadcrumb.Item>
                     <Breadcrumb.Item active>Telif Hakkları Korunmaktadır.</Breadcrumb.Item>
                 </Breadcrumb>
                 </footer>
