@@ -25,10 +25,10 @@ function Clearence() {
                       <Card>
                         <Card.Img
                           style={{ height: "364px" }}
-                          src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                          src="https://productimages.hepsiburada.net/s/44/500/10807010983986.jpg"
                         />
                         <Card.Body>
-                          <Card.Title>Card Title</Card.Title>
+                          <Card.Title>Xiaomi Redmi 9c 64 GB</Card.Title>
                         </Card.Body>
                       </Card>
                     </Carousel.Item>
@@ -36,10 +36,13 @@ function Clearence() {
                       <Card>
                         <Card.Img
                           style={{ height: "364px" }}
-                          src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                          src="https://productimages.hepsiburada.net/s/41/550/10695493386290.jpg/format:webp"
                         />
                         <Card.Body>
-                          <Card.Title>Card Title</Card.Title>
+                          <Card.Title>
+                            MSI GL75 Leopard 9SDR-299XTR Intel Core i7 9750H
+                            16GB 512GB SSD GTX1660Ti Freedos 17.3"{" "}
+                          </Card.Title>
                         </Card.Body>
                       </Card>
                     </Carousel.Item>
@@ -47,10 +50,10 @@ function Clearence() {
                       <Card>
                         <Card.Img
                           style={{ height: "364px" }}
-                          src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png"
+                          src="https://productimages.hepsiburada.net/s/40/550/10653556441138.jpg/format:webp"
                         />
                         <Card.Body>
-                          <Card.Title>Card Title</Card.Title>
+                          <Card.Title>Dijitsu VN04 3in1 Vantilatör</Card.Title>
                         </Card.Body>
                       </Card>
                     </Carousel.Item>
@@ -69,101 +72,107 @@ function Clearence() {
                       <Carousel.Item>
                         <CardGroup>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                        </CardGroup>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <CardGroup>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Simtech Km-1718</Card.Title>
                             </Card.Body>
                           </Card>
                         </CardGroup>
                       </Carousel.Item>
                       <Carousel.Item>
                         <CardGroup>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Simtech Km-1718</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <CardGroup>
+                        <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
+                            <Card.Body>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
+                            <Card.Body>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
+                            <Card.Body>
+                              <Card.Title>Simtech Km-1718</Card.Title>
                             </Card.Body>
                           </Card>
                         </CardGroup>
@@ -179,102 +188,108 @@ function Clearence() {
                     <Carousel>
                       <Carousel.Item>
                         <CardGroup>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                        </CardGroup>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <CardGroup>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
-                            </Card.Body>
-                          </Card>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                            <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Simtech Km-1718</Card.Title>
                             </Card.Body>
                           </Card>
                         </CardGroup>
                       </Carousel.Item>
                       <Carousel.Item>
                         <CardGroup>
-                          <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                        <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
                             </Card.Body>
                           </Card>
                           <Card>
-                            <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
                             <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>Simtech Km-1718</Card.Title>
+                            </Card.Body>
+                          </Card>
+                        </CardGroup>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <CardGroup>
+                        <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
+                            <Card.Body>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
+                            <Card.Body>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
+                            <Card.Body>
+                              <Card.Title>Simtech Km-1718</Card.Title>
                             </Card.Body>
                           </Card>
                         </CardGroup>
@@ -291,104 +306,110 @@ function Clearence() {
                   <Carousel>
                     <Carousel.Item>
                       <CardGroup>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
+                      <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
+                            <Card.Body>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
+                            <Card.Body>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
+                            <Card.Body>
+                              <Card.Title>Simtech Km-1718</Card.Title>
+                            </Card.Body>
+                          </Card>
                       </CardGroup>
                     </Carousel.Item>
                     <Carousel.Item>
                       <CardGroup>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
+                      <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
+                            <Card.Body>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
+                            <Card.Body>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
+                            <Card.Body>
+                              <Card.Title>Simtech Km-1718</Card.Title>
+                            </Card.Body>
+                          </Card>
                       </CardGroup>
                     </Carousel.Item>
                     <Carousel.Item>
                       <CardGroup>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
-                        <Card>
-                          <Card.Img src="https://s1.pearlcdn.com/TR/Upload/Community/7546b0053ad20181220122301057.png" />
-                          <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                          </Card.Body>
-                        </Card>
+                      <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10497624440882.jpg" />
+                            <Card.Body>
+                              <Card.Title>
+                              Lenovo HW25P
+                              </Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/53/320/11125287485490.jpg " />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Mi Watch</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/35/320/10470362939442.jpg" />
+                            <Card.Body>
+                              <Card.Title>Siemens Nx 12 Cam</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/73/320/110000014642159.jpg" />
+                            <Card.Body>
+                              <Card.Title>Xiaomi Redmi Note 10 Pro</Card.Title>
+                            </Card.Body>
+                          </Card>
+                          <Card>
+                            <Card.Img src="https://productimages.hepsiburada.net/s/39/320/10607202467890.jpg" />
+                            <Card.Body>
+                              <Card.Title>Simtech Km-1718</Card.Title>
+                            </Card.Body>
+                          </Card>
                       </CardGroup>
                     </Carousel.Item>
                   </Carousel>
