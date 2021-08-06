@@ -16,7 +16,7 @@ function Clearence() {
           <Row>
             <Col md={3}>
               <div id="clearence_section">
-                <Button variant="success" className="w-100">
+                <Button variant="outline-success" className="w-100">
                   İndirim
                 </Button>
                 <CardGroup>
@@ -65,7 +65,7 @@ function Clearence() {
               <Row>
                 <Col md={6}>
                   <div id="recently_viewed">
-                    <Button variant="success" className="w-100">
+                    <Button variant="outline-success" className="w-100">
                       Son Bakılanlar
                     </Button>
                     <Carousel>
@@ -182,7 +182,7 @@ function Clearence() {
                 </Col>
                 <Col md={6}>
                   <div id="buy_again">
-                    <Button variant="success" className="w-100">
+                    <Button variant="outline-success" className="w-100">
                       Yeniden Satın Al
                     </Button>
                     <Carousel>
@@ -300,7 +300,7 @@ function Clearence() {
               </Row>
               <Row>
                 <div id="best_seller" className="m-3 w-100">
-                  <Button variant="success" className="w-100">
+                  <Button variant="outline-success" className="w-100">
                     En Çok Satanlar
                   </Button>
                   <Carousel>
