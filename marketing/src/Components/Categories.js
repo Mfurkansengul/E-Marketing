@@ -41,7 +41,7 @@ function Categories() {
                   <Button variant="success" href="/products">Hediye Rehberi</Button>
                 </ButtonGroup>
                 <ButtonGroup className="mr-2" >
-                  <DropdownButton title="Language/Currency" variant="success" >
+                  <DropdownButton title="Dil / Para Birimi" variant="success" >
                     <Dropdown.Item>TR-TL</Dropdown.Item>
                     <Dropdown.Item>EN-TL</Dropdown.Item>
                     <Dropdown.Item>EN-USD</Dropdown.Item>
