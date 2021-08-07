@@ -11,7 +11,7 @@ function SubCategories() {
           </Col>
           <Col md={10} className="border border 4">
             <Carousel className="ml-5 col-md-11">
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={2000}>
                 <img
                   style={{ height: "455px" }}
                   className="d-block w-100"
@@ -23,7 +23,7 @@ function SubCategories() {
                   <p style={{ color: "black" }}>Büyük İndirimi Kaçırma</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={2000}>
                 <img
                   style={{ height: "455px" }}
                   className="d-block w-100"
@@ -37,7 +37,7 @@ function SubCategories() {
                   <p style={{ color: "black" }}>Net %40 İndirim</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={2000}>
                 <img
                   style={{ height: "455px" }}
                   className="d-block w-100"
