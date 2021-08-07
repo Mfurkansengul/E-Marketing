@@ -44,7 +44,7 @@ function Header() {
                 className="col-md-5 "
               > <NavDropdown.Item className="text-center">Bildiriminiz <br/> Bulunmamaktadır.</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#action2" className="col-md-3">
+              <Nav.Link href="/" className="col-md-3">
                 <FaShoppingCart />
                 Sepet
               </Nav.Link>
